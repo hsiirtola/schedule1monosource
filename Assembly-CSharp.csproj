@@ -1,0 +1,64 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="UnityEngine.CoreModule" />
+    <Reference Include="Unity.TextMeshPro" />
+    <Reference Include="Unity.InputSystem" />
+    <Reference Include="UnityEngine.UI" />
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime" />
+    <Reference Include="Unity.RenderPipelines.Core.Runtime" />
+    <Reference Include="UnityEngine.IMGUIModule" />
+    <Reference Include="com.rlabrecque.steamworks.net" />
+    <Reference Include="Unity.Burst" />
+    <Reference Include="HSVPicker" />
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule" />
+    <Reference Include="UnityEngine.AnimationModule" />
+    <Reference Include="UnityEngine.PhysicsModule" />
+    <Reference Include="UnityEngine.AudioModule" />
+    <Reference Include="System.Core" />
+    <Reference Include="UnityEngine.ParticleSystemModule" />
+    <Reference Include="UnityEngine.Physics2DModule" />
+    <Reference Include="Ookii.Dialogs" />
+    <Reference Include="RadiantGI" />
+    <Reference Include="FishNet.Runtime" />
+    <Reference Include="UnityEngine.UIModule" />
+    <Reference Include="LokoSolo.PinchableScrollRect" />
+    <Reference Include="RootMotion" />
+    <Reference Include="UnityEngine.AIModule" />
+    <Reference Include="ScheduleOne.Core" />
+    <Reference Include="UnityEngine.VehiclesModule" />
+    <Reference Include="AstarPathfindingProject" />
+    <Reference Include="UnityEngine.UnityWebRequestModule" />
+    <Reference Include="Unity.AI.Navigation" />
+    <Reference Include="Unity.Mathematics" />
+    <Reference Include="Assembly-CSharp-firstpass" />
+    <Reference Include="CorgiGodRays" />
+    <Reference Include="UnityEngine.TerrainModule" />
+    <Reference Include="Cinemachine" />
+    <Reference Include="Unity.Postprocessing.Runtime" />
+    <Reference Include="UnityEngine.VFXModule" />
+    <Reference Include="AeLa.EasyFeedback" />
+    <Reference Include="UnityEngine.InputLegacyModule" />
+    <Reference Include="UnityEngine.ImageConversionModule" />
+    <Reference Include="UnityEngine.TerrainPhysicsModule" />
+    <Reference Include="UnityEngine.JSONSerializeModule" />
+    <Reference Include="GameKit.Utilities" />
+    <Reference Include="UnityEngine.CrashReportingModule" />
+    <Reference Include="RuntimePreviewGenerator.Runtime" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="UnityEngine.TextRenderingModule" />
+    <Reference Include="UnityEngine.ScreenCaptureModule" />
+  </ItemGroup>
+</Project>

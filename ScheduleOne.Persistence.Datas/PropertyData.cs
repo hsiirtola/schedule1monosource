@@ -1,0 +1,29 @@
+using System;
+
+namespace ScheduleOne.Persistence.Datas;
+
+[Serializable]
+public class PropertyData : SaveData
+{
+	public string PropertyCode;
+
+	public bool IsOwned;
+
+	public bool[] SwitchStates;
+
+	public bool[] ToggleableStates;
+
+	public DynamicSaveData[] Employees;
+
+	public DynamicSaveData[] Objects;
+
+	public PropertyData(string propertyCode, bool isOwned, bool[] switchStates, bool[] toggleableStates, DynamicSaveData[] employees, DynamicSaveData[] objects)
+	{
+		PropertyCode = propertyCode;
+		IsOwned = isOwned;
+		SwitchStates = switchStates;
+		ToggleableStates = toggleableStates;
+		Employees = employees;
+		Objects = objects;
+	}
+}
